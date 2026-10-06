@@ -6,6 +6,8 @@
 
 На основе [стартового проекта](https://github.com/vladeemerr/vulkan-starter-app) преподавателя: Vulkan, GLFW, Dear ImGui.
 
+Отчёт: [reports/309_Полевая_Лаб1.pdf](reports/309_Полевая_Лаб1.pdf)
+
 ## Что сделано
 
 1. Переключение перспективной и ортографической проекций.
@@ -18,7 +20,7 @@
 
 ## Сборка и запуск (Windows)
 
-Требуются CMake и Vulkan SDK. Из корня проекта в x64 Native Tools Command Prompt:
+Требуются CMake и Vulkan SDK. Из папки lab1 в x64 Native Tools Command Prompt:
 
 ```cmd
 cmake --preset debug
