@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "configurePresets": [
+    {
+      "name": "common",
+      "hidden": true,
+      "generator": "Visual Studio 17 2022",
+      "cacheVariables": {
+        "CMAKE_POLICY_VERSION_MINIMUM": "3.10"
+      }
+    },
+    {
+      "name": "debug",
+      "inherits": "common",
+      "binaryDir": "${sourceDir}/build-debug",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "msvc-debug",
+      "inherits": "debug"
+    }
+  ]
+}
